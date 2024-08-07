@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: rgb(232, 238, 238);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container .input-container {
+  width: 100%;
+  max-width: 667px;
+  text-align: center;
+  padding: 30px;
+}
+.container .input-container input {
+  border: none;
+  outline: none;
+  padding: 12px;
+  border-radius: 4px;
+  margin: 12px 0;
+  font-size: 18px;
+}
+.container .input-container input[type=text] {
+  width: 70%;
+}
+.container .input-container #addBtn {
+  border: none;
+  padding: 10px 17px;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #070302;
+  color: white;
+  cursor: pointer;
+  margin-left: 8px;
+  font-weight: 600;
+}
+.container .input-container #addBtn:hover {
+  background-color: #6d6e6d;
+}
+.container ul {
+  width: 100%;
+  max-width: 525px;
+}
+.container ul li {
+  list-style-type: none;
+  cursor: pointer;
+  border: 1px solid rgb(240, 235, 235);
+  border-radius: 8px;
+  margin-top: 10px;
+  padding: 6px 12px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.container ul li:hover {
+  background-color: rgb(245, 239, 239);
+}
+.container ul li p {
+  width: 70%;
+}
+.container ul li .checkbox {
+  width: 20px;
+  height: 20px;
+  accent-color: rgb(44, 44, 161);
+}
+.container ul li .btn {
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background: none;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 0 5px;
+  padding: 6px;
+  border-radius: 4px;
+}
+.container ul li .btn.deleteBtn {
+  color: #ff0000;
+  cursor: pointer;
+  font-size: 23px;
+}
+.container ul li .btn.editBtn {
+  color: rgb(17, 192, 17);
+  cursor: pointer;
+  font-size: 23px;
+}
+.container ul li .todo-checkbox {
+  width: 18px;
+  height: 18px;
+}/*# sourceMappingURL=style.css.map */
