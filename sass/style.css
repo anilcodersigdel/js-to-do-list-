@@ -57,7 +57,7 @@ body {
   border: 1px solid rgb(240, 235, 235);
   border-radius: 8px;
   margin-top: 10px;
-  padding: 6px 12px;
+  padding: 5px 15px;
   background-color: #fff;
   display: flex;
   align-items: center;
@@ -69,7 +69,7 @@ body {
 .container ul li p {
   width: 70%;
 }
-.container ul li .checkbox {
+.container ul li .todo-checkbox {
   width: 20px;
   height: 20px;
   accent-color: rgb(44, 44, 161);
@@ -84,16 +84,13 @@ body {
   margin: 0 5px;
   padding: 6px;
   border-radius: 4px;
+  font-size: 23px;
 }
 .container ul li .btn.deleteBtn {
   color: #ff0000;
-  cursor: pointer;
-  font-size: 23px;
 }
 .container ul li .btn.editBtn {
   color: rgb(17, 192, 17);
-  cursor: pointer;
-  font-size: 23px;
 }
 .container ul li .todo-checkbox {
   width: 18px;
