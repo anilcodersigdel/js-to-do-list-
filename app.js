@@ -61,11 +61,11 @@ const display = () => {
 addBtn.addEventListener("click", addTodo);
 console.log(todos);
 
-deleteBtn.addEventListener("click", function(event) {
-  console.log("delete button clicked sucessfully");
-  if (event.target.id === "deleteBtn") {
-    todoList.removeChild(event.target.parentElement);
-  }
-});
+// deleteBtn.addEventListener("click", function(event) {
+//   console.log("delete button clicked sucessfully");
+//   if (event.target.id === "deleteBtn") {
+//     todoList.removeChild(event.target.parentElement);
+//   }
+// });
 
 // localStorage.setItem;
